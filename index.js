@@ -1,7 +1,7 @@
 'use strict';
 
 /**
- * Set an alarm that will execute the provided function at the provided time.
+ * Set an alarm that will execute the provided function at the specified time.
  *
  * ```js
  * // 2 seconds from now
