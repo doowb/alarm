@@ -10,23 +10,22 @@
   },
   "license": "MIT",
   "files": [
-    "index.js",
-    "LICENSE"
+    "index.js"
   ],
   "main": "index.js",
   "engines": {
-    "node": ">=4"
+    "node": ">=0.10.0"
   },
   "scripts": {
     "test": "mocha"
   },
-  "keywords": [
-    "alarm"
-  ],
   "devDependencies": {
     "gulp-format-md": "^0.1.12",
     "mocha": "^3.3.0"
   },
+  "keywords": [
+    "alarm"
+  ],
   "verb": {
     "toc": false,
     "layout": "default",
