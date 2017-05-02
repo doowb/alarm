@@ -22,5 +22,8 @@
   },
   "keywords": [
     "alarm"
-  ]
+  ],
+  "devDependencies": {
+    "mocha": "^3.3.0"
+  }
 }
