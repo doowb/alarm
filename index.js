@@ -19,6 +19,10 @@
  */
 
 var alarm = function(date, fn) {
+  if (typeof fn !== 'function') {
+    throw new Error('expected second argument to be a function');
+  }
+
   date = new Date(date);
   var now = new Date();
   var ms = date - now;
